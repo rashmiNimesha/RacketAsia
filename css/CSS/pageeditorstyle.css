@@ -1,0 +1,58 @@
+/* Styles for the main heading */
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    background-color: #8b8e8f;
+}
+
+/* Styles for subheading */
+
+h3 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Styles for unordered list */
+ul {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+/* Styles for list items */
+li {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Styles for pagination section */
+.pages {
+    background-color: #8b8e8f;
+}
+
+/* Styles for paragraphs */
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Styles for horizontal line */
+.line {
+    height: 5px;
+    width: 1000px;
+    background: #474B4F;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+/* Styles for link section */
+.link {
+    text-align: center;
+}
+
+/* Styles for links */
+.a:link {
+    text-decoration: none;
+    color: antiquewhite;
+}

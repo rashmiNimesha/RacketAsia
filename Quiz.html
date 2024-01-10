@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+        <title>Quiz</title>
+        <link rel="stylesheet" type="text/css" href="css/QuizStyle.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+
+        <header>
+            <img class="home-logo-img" src="images/LOGOEdited.png" alt="HomePageLogo" > 
+             <div class="homeLogo">Rackets Asia</div>
+             <div class="mainLine">
+                 <div class="line"></div>
+                 <div class="line"></div>
+                 <div class="line"></div>
+             </div>
+             <nav class="navigation-bar">
+                <ul>
+                    <li><a class="activeTab" href="index.html">Home</a></li>
+                <li><a href="PresentationPage.html">Presentation</a></li>
+                <li><a href="ProductPage.html">Products</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="Start.html">Quiz</a></li>
+                <li><a href="imagegallery.html">Gallery</a></li>
+                <li><a href="AboutUs.html">Student Details</a></li>
+                <li><a href="comments.html">Comments</a></li>F
+                </ul>       
+             </nav>
+         </header>
+    
+         <script>
+            mainLine = document.querySelector(".mainLine");
+            mainLine.onclick = function(){
+                navBar = document.querySelector("nav");
+                navBar.classList.toggle("active");
+            }
+    
+        </script>
+        <div class="quizz">
+            <div class="qaBox">
+                <div class="qaHeader">
+                    <span>Score: <span id="score">0</span></span>
+                    <span id="countdown">0</span>
+                </div>
+                <div class="qaBody">
+                    <div class="qaSet active">
+                        <h4>1.What is the maximum number of players allowed on a doubles badminton court at one time?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a1">
+                            <span>2</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a1">
+                            <span>3</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a1" valid="valid">
+                            <span>4</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a1">
+                            <span>5</span>
+                        </div>
+                    </div>
+                    <div class="qaSet">
+                        <h4>2.Which of the following is not a type of shot in table tennis?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a2">
+                            <span>Forehand</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a2">
+                            <span>Backhand</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a2">
+                            <span>Serve</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a2" valid="valid">
+                            <span>Overhead smash</span>
+                        </div>
+                    </div>
+                    <div class="qaSet">
+                        <h4>3.How many points are needed to win a game in badminton?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a3">
+                            <span>15</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a3" valid="valid">
+                            <span>21</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a3">
+                            <span>25</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a3">
+                            <span>30</span>
+                        </div>
+                    </div>
+                    <div class="qaSet">
+                        <h4>4.In tennis, what is the term used for a serve that hits the net and still lands in the correct service court?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a4" valid="valid">
+                            <span>Let</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a4">
+                            <span>Fault</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a4">
+                            <span>Ace</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a4">
+                            <span>Double fault</span>
+                        </div>
+                    </div>
+                    <div class="qaSet">
+                        <h4>5.In table tennis, what is the minimum number of points needed to win a game?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a5">
+                            <span>5</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a5">
+                            <span>7</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a5" valid="valid">
+                            <span>11</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a5">
+                            <span>15</span>
+                        </div>
+                    </div>
+                    <div class="qaSet">
+                        <h4>6.Which of the following is not a type of serve in squash?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a6">
+                            <span>Lob serve</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a6">
+                            <span>Boast serve</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a6">
+                            <span>Drive serve</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a6" valid="valid">
+                            <span>Smash serve</span>
+                        </div>
+                    </div>
+                    <div class="qaSet">
+                        <h4>7.In which racket sport are players allowed to hit the ball with their hands as well as their rackets?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a7">
+                            <span>Tennis</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a7">
+                            <span>Badminton</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a7">
+                            <span>Squash</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a7" valid="valid">
+                            <span>Racquetball</span>
+                        </div>
+                    </div>
+                    <div class="qaSet">
+                        <h4>8.Which of the following racket sports is not played with a ball?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a8">
+                            <span>Squash</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a8">
+                            <span>Racquetball</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a8">
+                            <span>Table tennis</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a8" valid="valid">
+                            <span>Badminton</span>
+                        </div>
+                    </div>
+                    <div class="qaSet">
+                        <h4>9.Which of the following is not a type of serve in table tennis?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a9" valid="valid">
+                            <span>Backhand serve</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a9">
+                            <span>Pendulum serve</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a9">
+                            <span>Tomahawk serve</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a9">
+                            <span>Backspin serve</span>
+                        </div>
+                    </div>
+                    <div class="qaSet">
+                        <h4>10.In racquetball, how many points are needed to win a game?</h4>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a10" valid="valid">
+                            <span>11</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a10">
+                            <span>15</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a10">
+                            <span>21</span>
+                        </div>
+                        <div class="qaAnswersRow">
+                            <input type="radio" name="a10">
+                            <span>23</span>
+                        </div>
+                    </div>
+                    <div class="qaSet" style="text-align: center;">
+                        <h4>Your total score <span id="totalScore">0</span> out of 100</h4>
+                        <a href="Start.html" class="btn1">Retake</a>
+                    </div>
+                </div>
+                <div class="qaFooter">
+                    <span class="btn1" id="skip">Skip</span>
+                </div>
+            </div>
+        </div>
+        <div class="home-footer">
+            <center><a href="EditPage.html">Page Editor</a></center>
+            <ul>
+                <li>racketsAsia@gmail.com</li>
+                <li>Copyright ©2023 Rackets Asia. All Rights Reserved.</li>
+                <li>011-21-50475</li>
+                
+            </ul>
+           </div>
+        <script type="text/javascript" src="JS/Calculation.js"></script>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" type="text/css" href="css/comments.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <header>
+        <img class="home-logo-img" src="images/LOGOEdited.png" alt="HomePageLogo">
+        <div class="homeLogo">Rackets Asia</div>
+        <div class="mainLine">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="navigation-bar">
+            <ul>
+                <li><a class="activeTab" href="index.html">Home</a></li>
+                <li><a href="PresentationPage.html">Presentation</a></li>
+                <li><a href="ProductPage.html">Products</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="Start.html">Quiz</a></li>
+                <li><a href="imagegallery.html">Gallery</a></li>
+                <li><a href="AboutUs.html">Student Details</a></li>
+                <li><a href="comments.html">Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        mainLine = document.querySelector(".mainLine");
+        mainLine.onclick = function () {
+            navBar = document.querySelector("nav");
+            navBar.classList.toggle("active");
+        }
+
+    </script>
+
+    <!-- comment section heading -->
+    <div class="comment-section">
+        <div class="comments-text">
+            <h1 class="commments-heading">Review Us</h1>
+            <div class="line"></div>
+            <h3 class="comments-subHeading"> Home > Review Us</h3>
+
+        </div>
+        <!-- Collect information from users-->
+        <div class="comment-section-content">
+
+            <h2 class="comment-heading-sub">Get in touch with us</h2>
+            <form name="qform" action="mailto:rashgamage174@gmail.com" enctype="text/plain" action="js"
+                onsubmit="return validateForm()" method="post">
+                <label for="fname">First Name:</label>
+                <input type="text" id="field" name="fname" placeholder="Enter your first name"> <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="field" name="lname" placeholder="Enter your last name"> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="field" name="email" placeholder="YourMail@gmail.com"> <br>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" placeholder="write your comment"></textarea><br> <br><br>
+
+                <div class="rating">
+                    <label for="ratings"> How satisfied were you with our Racket Asia website Today? Rate 0-10</label>
+                    <br><br>
+
+                    <!--ratings using radio elements-->
+                    <input type="radio" name="rate">
+                    <label for="rate0">0</label>
+                    <input type="radio" name="rate">
+                    <label for="rate1">1</label>
+                    <input type="radio" name="rate">
+                    <label for="rate2">2</label>
+                    <input type="radio" name="rate">
+                    <label for="rate3">3</label>
+                    <input type="radio" name="rate">
+                    <label for="rate4">4</label>
+                    <input type="radio" name="rate">
+                    <label for="rate5">5</label>
+                    <input type="radio" name="rate">
+                    <label for="rate6">6</label>
+                    <input type="radio" name="rate">
+                    <label for="rate7">7</label>
+                    <input type="radio" name="rate">
+                    <label for="rate8">8</label>
+                    <input type="radio" name="rate">
+                    <label for="rate9">9</label>
+                    <input type="radio" name="rate">
+                    <label for="rate10">10</label>
+                </div>
+
+                <!-- submit button then direct to the mail -->
+                <br><button class="comment-btn" type="submit" onsubmit="return submit()">Submit</button>
+            </form>
+
+        </div>
+
+
+        <script>
+
+
+            function validateForm() {
+                var a = document.forms["qform"]["fname"].value;
+                var b = document.forms["qform"]["lname"].value;
+                var c = document.forms["qform"]["email"].value;
+                var d = document.forms["qform"]["comment"].value;
+
+
+                if (a == null || a == "") {
+                    alert(" First Name must be filled out");
+                    return false;
+                }
+                if (b == null || b == "") {
+                    alert("Last Name must be filled out");
+                    return false;
+                }
+                if (c == null || c == "") {
+                    alert("Email must be filled out");
+                    return false;
+                }
+                if (d == null || d == "") {
+                    alert("Comment section must be filled out");
+                    return false;
+                }
+
+            }
+
+
+            function submit() {
+                window.location.href = "thankyou.html";
+
+            }
+        </script>
+</body>
+</html>

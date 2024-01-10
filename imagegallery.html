@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/CSS/homepagestyle.css">
+    <link rel="stylesheet" href="css/CSS/imagegallerystyle.css">
+</head>
+
+<body>
+        <!-- navigation bar -->
+        <header>
+        <img class="home-logo-img" src="images/LOGOEdited.png" alt="HomePageLogo">
+        <div class="homeLogo">Rackets Asia</div>
+        <div class="mainLine">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="navigation-bar">
+            <ul>
+                <li><a class="activeTab" href="index.html">Home</a></li>
+                <li><a href="PresentationPage.html">Presentation</a></li>
+                <li><a href="ProductPage.html">Products</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="Start.html">Quiz</a></li>
+                <li><a href="imagegallery.html">Gallery</a></li>
+                <li><a href="AboutUs.html">Student Details</a></li>
+                <li><a href="comments.html">Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="js/SCRIPT/homepagescript.js"></script>
+
+    <div class="imageGallery">
+    <div class="main-wrapper">
+        <h1>RACKET SPORTS</h1>
+        <div class="lineSep"></div><br>
+        <div>
+            <!-- color scheme -->
+            <div class="color-container">
+                <span id="1" onclick="color(this)" class="color clr1"></span>
+                <span id="2" onclick="color(this)" class="color clr2"></span>
+                <span onclick="color(this)" class="color clr3"></span>
+                <span onclick="color(this)" class="color clr4"></span>
+            </div>
+        </div>
+        <!-- font resizing buttons -->
+        <div class="buttons">
+            <span class="bttn active" onclick="document.getElementById('txt').style.fontSize='1em'">A</span>
+            <span class="bttn" onclick="document.getElementById('txt').style.fontSize='1.25em'"> A </span>
+            <span class="bttn" onclick="document.getElementById('txt').style.fontSize='1.50em'"> A </span>
+
+        </div>
+        <div>
+            <button class="randomButton" onclick="changeColor()">Random Color</button>
+        </div>
+
+        <!-- hover container that displays multiple images and related description on hovering over the main image. -->
+        <div class="imageText">
+            <div class="image-div-left">
+                <div class="img-container">
+                    <img src="images/imageGallery/air-badminton.jpg" alt="watch">
+                </div>
+                <div class="text-container" id="txt">
+                    <p>AirBadminton is a racket sport, a variation of badminton. This new exciting format of badminton
+                        is designed to be
+                        played outdoors on any surface, by people of all ages and all abilities. Crossminton is another
+                        variation of
+                        badminton suitable for playing outdoors.</p>
+                </div>
+            </div>
+            <div>
+                <div class="hover-container">
+                    <div><img src="images/imageGallery/air-badminton.jpg" alt="air-badminton"></div>
+                    <div><img src="images/imageGallery/badminton-pex.jpg" alt="badminton"></div>
+                    <div><img src="images/imageGallery/ball-badminton-yt.jpg" alt="ball-badminton"></div>                    
+                    <div><img src="images/imageGallery/1924-basque-pelota-1.jpg" alt="basque-pelota"></div>
+                    <div><img src="images/imageGallery/beach-tennis-pixabay.jpg" alt="beach-tennis"></div>
+                    <div><img src="images/imageGallery/jai-alaicourt-adobe.jpg" alt="jai-alaicourt"></div>
+                    <div><img src="images/imageGallery/paddle-tennis-pixabay.jpg" alt="paddle-tennis"></div>
+                    <div><img src="images/imageGallery/padel-racket-pixabay.jpg" alt="padel-racket"></div>
+                    <div><img src="images/imageGallery/para-badminton-flkr.jpg" alt="para-badminton"></div>
+                    <div><img src="images/imageGallery/pickleball-us.jpg" alt="pickleball"></div>
+                    <div><img src="images/imageGallery/pelota-mixteca-glove-pixa.jpg" alt="pelota-mixteca"></div>
+                    <div><img src="images/imageGallery/racquetball-dive-pixabay.jpg" alt="racquetball-dive"></div>
+                    <div><img src="images/imageGallery/real-tennis-mine.jpg" alt="real-tennis"></div>                    
+                    <div><img src="images/imageGallery/tennis-court-ball-pixabay.jpg" alt="road-tennis"></div>                    
+                    <div><img src="images/imageGallery/tennis-japan-children-pixabay.jpg" alt="soft-tennis"></div>                    
+                    <div><img src="images/imageGallery/squash.jpg" alt="squash"></div>                    
+                    <div><img src="images/imageGallery/table-tennis-pixabay.jpg" alt="table-tennis"></div>                    
+                    <div><img src="images/imageGallery/tamburello-pd.jpg" alt="tamburello"></div>                    
+                    <div><img src="images/imageGallery/tennis-doubles-pixabay.jpg" alt="lawn-tennis"></div>                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/SCRIPT/imagegalleryscript.js"></script>
+
+    <!-- footer -->
+    <div class="home-footer">
+        <center><a href="pageeditor.html" target="_blank">Page Editor</a></center>
+        <ul>
+            <li>racketsAsia@gmail.com</li>
+            <li>Copyright ©2023 Rackets Asia. All Rights Reserved.</li>
+            <li>011-21-50475</li>
+
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+        <title>Quiz</title>
+        <link rel="stylesheet" type="text/css" href="css/QuizStyle.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="JS/Calculation.js"></script>
+    </head>
+    <body>
+        <header>
+            <img class="home-logo-img" src="images/LOGOEdited.png" alt="HomePageLogo" > 
+             <div class="homeLogo">Rackets Asia</div>
+             <div class="mainLine">
+                 <div class="line"></div>
+                 <div class="line"></div>
+                 <div class="line"></div>
+             </div>
+             <nav class="navigation-bar">
+                <ul>
+                    <li><a class="activeTab" href="index.html">Home</a></li>
+                <li><a href="PresentationPage.html">Presentation</a></li>
+                <li><a href="ProductPage.html">Products</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="Start.html">Quiz</a></li>
+                <li><a href="imagegallery.html">Gallery</a></li>
+                <li><a href="AboutUs.html">Student Details</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                </ul>     
+             </nav>
+         </header>
+    
+         <script>
+            mainLine = document.querySelector(".mainLine");
+            mainLine.onclick = function(){
+                navBar = document.querySelector("nav");
+                navBar.classList.toggle("active");
+            }
+    
+        </script>
+
+    <div class="quizz">
+        <div class="qaBox">
+            <div class="qaHeader">
+                <span>Score: <span id="score">0</span></span>
+                <span id="countdown">0</span>
+            </div>
+            <div class="qaBody">
+                <div class="qaSet instruction">
+                    <ul style="list-style-type: disc;">
+                    <li>Once you click on the start button there will be 10 questions</li>
+                    <li>You will have 01 minute to answer all of the 10 questions</li>
+                    <li>Each correct answer will grant you 10 points so the total will be 100 points</li>
+                    <li>Once you click on a answer or click on the skip button there is no going back</li>
+                    <li>Please do not refresh your browser until you finish the quiz</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="qaFooter" style="text-align: center;">
+                <a href="Quiz.html" class="btn1">Start</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="home-footer">
+        <center><a href="EditPage.html">Page Editor</a></center>
+        <ul>
+            <li>racketsAsia@gmail.com</li>
+            <li>Copyright ©2023 Rackets Asia. All Rights Reserved.</li>
+            <li>011-21-50475</li>
+            
+        </ul>
+       </div>
+    </body>
+</html>

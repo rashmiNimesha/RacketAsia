@@ -1,0 +1,80 @@
+.page-editor-heading{
+    width: 100vw;
+    height: 13vh;
+    text-align: center;
+    font-size: 6vmin;
+    color: #222629;
+    padding-top:15px;
+    padding-bottom: 10px;
+    background-color: #474b4f;
+}
+
+.editor{
+    text-align: center;
+    font-size: 5vmin;
+    color: #222629;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.page-line{
+    height: 4px;
+    width: 550px;
+    background: #61892F;
+    margin: 5px auto;
+    border-radius: 5px;
+    
+}
+
+.page-editor-content{
+    background-color:rgba(104, 211, 145, 0.4);
+    width: 100%;
+    height: 170px;
+    padding-top: 20px;
+    
+}
+
+.page-editor-content h1{
+    font-size: 2.5vmin;
+    color: #222629;
+    padding: 5px;
+
+}
+
+.page-editor-div{
+    background-color: rgba(104, 211, 145, 0.4) ;
+    width: 100%;
+    height: 700px;
+}
+
+.jump{
+    padding-left: 70%;
+}
+
+.jump :hover{
+    color: white;
+    background-color: #61892F;
+}
+
+.link-editor{
+    color: black;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.link-editor :hover{
+    color: aliceblue;
+    background-color: #61892F;
+    margin-top: 50px;
+    
+}
+
+.page-editor-div{
+    text-align: center;
+    text-indent: 50px;
+}
+
+.page-editor-div h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}

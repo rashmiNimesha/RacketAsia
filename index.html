@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rackets Asia</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+        <img class="home-logo-img" src="images/LOGOEdited.png" alt="HomePageLogo">
+        <div class="homeLogo">Rackets Asia</div>
+        <div class="mainLine">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="navigation-bar">
+            <ul>
+                <li><a class="activeTab" href="index.html">Home</a></li>
+                <li><a href="PresentationPage.html">Presentation</a></li>
+                <li><a href="ProductPage.html">Products</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="Start.html">Quiz</a></li>
+                <li><a href="imagegallery.html">Gallery</a></li>
+                <li><a href="AboutUs.html">Student Details</a></li>
+                <li><a href="comments.html">Comments</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Active tab js -->
+    <script>
+        mainLine = document.querySelector(".mainLine");
+        mainLine.onclick = function () {
+            navBar = document.querySelector("nav");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+    <!--First div - introduction about the store -->
+    <div class="home-page-div1">
+        <div class="home-bg-image"></div>
+        <div class="home-bg-text">
+            <h1 class="heading">RACKETS ASIA SPORTS COMPLEX</h1>
+            <div class="line"></div>
+            <h3 class="heading-content">Racket Asia Sports
+                complex is facilitates multiple indoor sports, such as badminton, squash, tennis, and table tennis.
+                This complex often provide details of that sport: rackets, courts, venue, training, and rental services.
+            </h3>
+            <h2 class="heading-sub">All Warmly Welcome To Racket Asia Online Store!</h2>
+            <button class="home-page-btn1" onclick="window.location.href='ProductPage.html'"> See More </button>
+        </div>
+    </div>
+
+
+    <!--second div - Quote about sports -->
+    <div class="home-page-plain-text">
+        <h3>
+            Believe me,
+            the reward is not so great without the struggle.
+        </h3>
+        <h2>-Wilma Rudolph-</h3>
+    </div>
+
+
+    <!-- third div - link to the content pages. -->
+    <section>
+        <div class="content-block">
+            <div class="content-block-row">
+                <div class="content-block-col">
+                    <h2>Squash</h2>
+                    <div class="content-line"></div>
+                    <img class="content-image" src="images/sq.webp" alt="Squash">
+                    <img class="content-image" src="images/Squash1.jpg">
+                    <img class="content-image" src="images/Squash2.jpg">
+                    <img class="content-image" src="images/squash3.jpeg">
+                    <img class="content-image" src="images/squash4.jpg">
+                    <h1>Squash Article</h1>
+                    <a class="content-btn" href="Squash.html" click="link"> See more</a>
+                    <div class="content-para">
+                        <p class="content-para-text">
+                            Squash is a two-person sport played on a court with four walls using a racquet and a tiny,
+                            hollow
+                            rubber ball.You want to strike the ball onto the front wall and get it to bounce twice
+                            before the
+                            other team responds.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="content-block-col">
+                    <h2>Tennis</h2>
+                    <div class="content-line"></div>
+                    <img class="content-image1" src="images/tennis.jpg" alt="Tennis">
+                    <img class="content-image1" src="images/t2.jpeg">
+                    <img class="content-image1" src="images/tennis.webp">
+                    <img class="content-image1" src="images/t3.webp">
+                    <img class="content-image1" src="images/t4.jpeg">
+                    <h1>Tennis Article</h1>
+                    <a class="content-btn" href="Tennis.html" click="link"> See more</a>
+                    <div class="content-para">
+                        <p class="content-para-text">
+                            Tennis is a game played on a rectangular court by two to four players using racquets and
+                            tennis balls.
+                            When a player can force the ball into their opponent's court without them being able to
+                            return it, they have won the point.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content-block-row">
+                <div class="content-block-col">
+                    <h2>Table Tennis</h2>
+                    <div class="content-line"></div>
+                    <img class="content-image2" src="images/table-tennis.jpg" alt="Table-Tennis">
+                    <img class="content-image2" src="images/tt4.webp">
+                    <img class="content-image2" src="images/tt2.jpg">
+                    <img class="content-image2" src="images/tt3.jpeg">
+                    <img class="content-image2" src="images/tt1.jpg">
+                    <h1>Table Tennis</h1>
+                    <a class="content-btn" href="tabletennis.html" click="link"> See more</a>
+                    <div class="content-para">
+                        <p class="content-para-text">
+                            Table tennis plays by two or four players on a table divided by a net using small paddles
+                            and a lightweight ball. In order to score a point, players must cause the ball
+                            to bounce on their opponent's side of the table and stop them from doing the same on your
+                            side.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="content-block-col">
+                    <h2>Badminton</h2>
+                    <div class="content-line"></div>
+                    <img class="content-image3" src="images/b.jpg" alt="badminton">
+                    <img class="content-image3" src="images/b2.jpg">
+                    <img class="content-image3" src="images/b3.jpg">
+                    <img class="content-image3" src="images/badminton.jpg">
+                    <img class="content-image3" src="images/b5.jpg">
+                    <h1>Badminton Article</h1>
+                    <a class="content-btn" href="badminton-content.html" click="link"> See more</a>
+                    <div class="content-para">
+                        <p class="content-para-text">
+                            Badminton plays by two or four players on a rectangular court divided by a net by using
+                            racquets and a shuttlecock. If the
+                            shuttlecock lands on the floor in an opponent's half of the court, including the lines, it
+                            is one point.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <div class="home-footer">
+        <center><a href="page-editor-Rashmi.html" target="_blank">Page Editor</a></center>
+        <ul>
+            <li>racketsAsia@gmail.com</li>
+            <li>Copyright ©2023 Rackets Asia. All Rights Reserved.</li>
+            <li>011-21-50475</li>
+
+        </ul>
+    </div>
+
+
+
+    <!-- content page images change at every 3000ms -->
+    <!-- 4 functions for change pictures in every content-->
+    <script>
+        var myIndex = 0;
+        Squash();
+
+        function Squash() {
+            var i;
+            var x = document.getElementsByClassName("content-image");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "flex";
+            setTimeout(Squash, 3000);
+        }
+
+        var myIndex1 = 0;
+        Tennis();
+
+        function Tennis() {
+            var ii;
+            var xx = document.getElementsByClassName("content-image1");
+            for (ii = 0; ii < xx.length; ii++) {
+                xx[ii].style.display = "none";
+            }
+            myIndex1++;
+            if (myIndex1 > xx.length) { myIndex1 = 1 }
+            xx[myIndex1 - 1].style.display = "flex";
+            setTimeout(Tennis, 3000);
+        }
+
+        var myIndex2 = 0;
+        TableTennis();
+
+        function TableTennis() {
+            var ii;
+            var xx = document.getElementsByClassName("content-image2");
+            for (ii = 0; ii < xx.length; ii++) {
+                xx[ii].style.display = "none";
+            }
+            myIndex2++;
+            if (myIndex2 > xx.length) { myIndex2 = 1 }
+            xx[myIndex2 - 1].style.display = "flex";
+            setTimeout(TableTennis, 3000);
+        }
+
+        var myIndex3 = 0;
+        Badminton();
+
+        function Badminton() {
+            var ii;
+            var xx = document.getElementsByClassName("content-image3");
+            for (ii = 0; ii < xx.length; ii++) {
+                xx[ii].style.display = "none";
+            }
+            myIndex3++;
+            if (myIndex3 > xx.length) { myIndex3 = 1 }
+            xx[myIndex3 - 1].style.display = "flex";
+            setTimeout(Badminton, 3000);
+        }
+
+    </script>
+
+
+</body>
+
+</html>

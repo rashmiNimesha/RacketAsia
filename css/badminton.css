@@ -1,0 +1,94 @@
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.topics {
+    width: 100%;
+    height: 50px;
+    background-color: #222629;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.topics ul {
+    display: flex;
+}
+
+.topics ul li {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.topics a {
+    color: aliceblue;
+    justify-content: space-between;
+    padding: 7px 14px;
+    border-radius: 40px;
+    display: block;
+    transition: 0.2s;
+    margin: 2px 66px;
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #222629;
+    letter-spacing: 2px;
+    font-weight: 100px;
+    padding-top: 20px;
+}
+
+.line {
+    height: 5px;
+    width: 150px;
+    background: #61892F;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+
+h3 {
+    font-size: 4vmin;
+    text-align: center;
+    color: #61892F;
+    padding-bottom: 10px;
+}
+
+.content-line {
+    height: 3px;
+    width: 250px;
+    background: #61892F;
+    margin: 5px auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 60px;
+    font-size: 20px;
+}
+
+.badminton-images {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+
+}
+
+.badminton-video {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 35%;
+
+}

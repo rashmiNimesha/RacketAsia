@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    letter-spacing: 2px;  
+    font-size: 40px;
+    background-color: #86C232;
+}
+h3{
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+li{
+    text-align: center;
+    font-size: 20px;
+}
+.list2{
+    text-align: left;
+    list-style: circle;
+    font-size: 20px;
+}
+.pages{
+    background-color: #86C232;
+    width: auto;
+}
+.line{
+    height: 5px;
+    width: auto;
+    background: #61892F;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+.jump{
+    padding-left: 90%;
+}
+.link{
+    text-align: left;
+}

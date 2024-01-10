@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>About us</title>
+<link rel="stylesheet" type="text/css" href="css/AboutUsStyle.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+	<header>
+        <img class="home-logo-img" src="images/LOGOEdited.png" alt="HomePageLogo" > 
+         <div class="homeLogo">Rackets Asia</div>
+         <div class="mainLine">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+         </div>
+         <nav class="navigation-bar">
+			<ul>
+                <li><a class="activeTab" href="index.html">Home</a></li>
+                <li><a href="PresentationPage.html">Presentation</a></li>
+                <li><a href="ProductPage.html">Products</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="Start.html">Quiz</a></li>
+                <li><a href="imagegallery.html">Gallery</a></li>
+                <li><a href="AboutUs.html">Student Details</a></li>
+                <li><a href="comments.html">Comments</a></li>
+            </ul>       
+         </nav>
+     </header>
+
+     <script>
+        mainLine = document.querySelector(".mainLine");
+        mainLine.onclick = function(){
+            navBar = document.querySelector("nav");
+            navBar.classList.toggle("active");
+        }
+
+    </script>
+
+
+<section class="AboutUs">
+	<div class="Profile">
+		<img src="Images/Dulami.jpg">
+		<div class="description">
+			<h3>Dulami Kaludewa</h3>
+			<p>Student No.1</p>
+			<p>Presentation Page, Product Page</p>
+			<p>Squash page</p>
+		</div>
+	</div>
+	<div class="Profile">
+		<img src="Images/Rashmi.jpg">
+		<div class="description">
+			<h3>Rashmi Nimesha</h3>
+			<p>Student No.2</p>
+			<p>Main page, Navigation Bar, Comments Form</p>
+			<p>Badminton Page</p>
+		</div>
+	</div>
+	<div class="Profile">
+		<img src="Images/Lakindu.jpg">
+		<div class="description">
+			<h3>Lakindu yasomith</h3>
+			<p>Student No.3</p>
+			<p>Quiz page, About Us page, CSS Styles</p>
+			<p>Tennis Page</p>
+		</div>
+	</div>
+	<div class="Profile">
+		<img src="Images/Menuri_Ranmali.jpg">
+		<div class="description">
+			<h3>Menuri Ranmali</h3>
+			<p>Student No.4</p>
+			<p>Site Map Diagram, Gallery Page</p>
+			<p>Table Tennis Page</p>
+		</div>
+	</div>
+</section>
+<div class="home-footer">
+	<center><a href="EditPage.html">Page Editor</a></center>
+	<ul>
+		<li>racketsAsia@gmail.com</li>
+		<li>Copyright ©2023 Rackets Asia. All Rights Reserved.</li>
+		<li>011-21-50475</li>
+	</ul>
+   </div>
+
+
+
+</body>
+</html>
